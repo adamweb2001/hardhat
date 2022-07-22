@@ -1,0 +1,30 @@
+{
+  "name": "hard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn hardhat test",
+    "test:staging": "yarn hardhat test --network rinkeby",
+    "coverage": "yarn hardhat coverage"
+  },
+  "author": "MM",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.10.0",
+    "hardhat-deploy": "^0.11.11",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.7.21"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1"
+  }
+}
